@@ -1,0 +1,145 @@
+
+.main-banner {
+	position: relative;
+	overflow: hidden;
+}
+
+.main-banner > div {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.main-banner > div > img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.main-banner > .banner1 {
+	width: 100%;
+	height: 250px;
+	background: #53597B;
+	border-bottom: 2px solid #E1E1E1;
+}
+
+.main-banner > .banner5 {
+	width: 49.8%;
+	height: 250px;
+	background: #4153B8;
+	float: right;
+	clear: right;
+	border-top: 2px solid #E1E1E1;
+	border-left: 2px solid #E1E1E1;
+	overflow: hidden;
+}
+
+.main-banner > .banner6 {
+	width: 49.85%;
+	height: 250px;
+	background: #1E212F;
+	float: left;
+	border-top: 2px solid #E1E1E1;
+	overflow: hidden;
+}
+
+.post-content > h1 {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.post-content > p {
+	margin: auto;
+	padding: 10px 0;
+	width: 95%;
+}
+
+.main-img-container {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.post-main-img {
+	width: 80%;
+}
+
+.side-img-c {
+	margin: 20px 60px 20px 20px;
+	float: right;
+	clear: both;
+}
+
+.comment {
+	width: 70%;
+	margin: 20px 50px 20px 0;
+	padding: 25px;
+	background: #F5F5F5;
+	border-radius: 10px;
+}
+
+.nickname > p {
+	color: #686868;
+	font-size: 18px;
+}
+
+.far.fa-user-circle {
+	font-size: 25px;
+}
+
+.divider-border {
+	margin: 50px 0 30px 0;
+	padding: 0;
+	width: 100%;
+	height: 1px;
+	background: #B1B1B1;
+}
+
+@media only screen and (max-width: 1248px) {
+	.main-banner > .banner4 {display: none;}
+	.main-banner > .banner3 {left: 0; border-left: none;}
+}
+
+@media only screen and (max-width: 708px) {
+	.side-img-c {margin: 20px;}
+}
+
+@media only screen and (max-width: 617px) {
+	.main-banner > div:nth-child(1) {height: auto;}
+	.main-banner > div:nth-child(2) {width: 100%; float: none; height: auto;}
+	.main-banner > div:nth-child(3) {position: relative; width: 100%; height: auto; border: none; left: inherit; right: inherit;}
+	.main-banner > div:nth-child(5) {width: 100%; float: none; height: auto;}
+	.main-banner > div:nth-child(6) {width: 100%; float: none; height: auto;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

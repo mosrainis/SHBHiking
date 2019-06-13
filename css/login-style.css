@@ -1,0 +1,125 @@
+html {
+	background: #D9E1D2;
+	font-family: Vazir;
+	direction: rtl;
+}
+
+
+input::-webkit-input-placeholder {
+	font-family: Vazir;
+}
+
+input:-ms-input-placeholder {
+	font-family: Vazir;
+}
+
+input:-moz-placeholder {
+	font-family: Vazir;
+}
+
+
+
+.bg {
+	position: absolute;
+	width: 100%;
+	height: 381px;
+	bottom: 0;
+	left: 0;
+	background: url(../images/bg-trees.png) no-repeat 100% 100%;
+	z-index: -1;
+}
+
+.loginbox {
+	position: relative;
+	width: 80%;
+	max-width: 900px;
+	margin: auto;
+	margin-top: 15px;
+	background: #60774D;
+	border-radius: 25px;
+}
+
+.form-co {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+
+.form-sec {
+	width: 100%;
+	height: 570px;
+	padding-top: 30px;
+	color: #fff;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.form-sec:nth-child(2) {
+	background: #586D46;
+}
+
+.form-sec > .form-title {
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 35px;
+}
+
+.form-sec > .fbox {
+	padding-right: 35px;
+}
+
+.form {
+	padding: 25px;
+}
+
+.form > .fitem {
+	margin: 15px 0;
+}
+
+.form > .fitem[type="checkbox"] {
+	width: 17px;
+	height: 17px;	
+}
+
+.form > .fitem[type="submit"] {
+	font-family: Vazir;
+	width: 120px;
+	height: 25px;
+	background: #E1E1E1;
+	border: none;
+	border-radius: 10px;
+	margin-right: 30px;
+}
+
+.form > .fitem[type="submit"]:focus {
+	background: #CFCFCF;
+}
+
+.form > .finput {
+	width: 60%;
+	height: 20px;
+	background: #D9D9D9;
+	margin-right: 25px;
+	padding: 5px;
+	border: 1px solid #323232;
+	border-radius: 5px;
+	transition: all 250ms;
+	box-shadow: inset 1px 3px 3px #666666;
+}
+
+.form > .finput:focus {
+	width: 70%;
+	background: #BBBBBB;
+	direction: ltr;
+}
+
+.info {
+	position: absolute;
+	bottom: -50px;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #7F7F7F;
+}
