@@ -1,6 +1,7 @@
 # SHB Hiking
 
 A template for Hiking, Climbing And Adventure Websites
+Note: There is no content section yet. Only header and footer. Takes some time ...
 
 ### Installing
 
