@@ -1,6 +1,6 @@
 /*-------- Some regular styles -----------*/
 
-html,
+
 body {
     margin: auto;
     padding: 0;
@@ -10,6 +10,7 @@ body {
     overflow-x: hidden;
     min-width: 150px;
     max-width: 1920px;
+    background: #cacaca;
 }
 
 * {
@@ -43,12 +44,24 @@ a {
       position: relative;
       width: 100%;
       box-shadow: 0px 2px 5px #5d5d5d;
+      background-image: url("sylvain-cleymans-bORJDL9I9mM-unsplash.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: auto;
   }
-  
+
+  .head-h-m {
+    min-height: 100vh;
+  }
+
+  .head-h-s {
+    min-height: 50vh;
+    background-position: center;
+  }
+
   .head {
       width: 100%;
       min-height: 150px;
-      background-color: #107526;
   }
   
   .main-sec {
@@ -63,30 +76,27 @@ a {
   .pushed {
     margin-right: 60%;
   }
-  
-  .buti-line {
-    position: absolute;
-    left: -50px;
-    transform: rotate(-45deg);
-    width: 120px;
-    height: 50px;
-    background-color: #107526;
-    box-shadow: -3px 4px 4px -1px #817d7d;
-  }
 
   .navbar {
     position: absolute;
-    bottom: 16px;
-    right: 0px;
+    top: 16px;
+    right: 5%;
+    font-size: 17px;
+    pointer-events: none;
   }
 
   .navbar > a {
     padding: 15px;
-    color: #e4e4e4;
+    color: #222222;
     transition: all 250ms;
+    pointer-events: auto;
   }.navbar > a:hover {
     background-color: #3d3d3d63;
     color: #fff;
+  }.navbar > a:first-child {
+    border-bottom-right-radius: 40px;
+  }.navbar > a:last-child {
+    border-bottom-left-radius: 40px;
   }
   
   .m-nav-container {
@@ -123,12 +133,12 @@ a {
   }
   
   #m-top-nav {
-      display: inline-block;
+      display: block;
       width: 40px;
       height: 40px;
       line-height: 40px;
       border-radius: 10px;
-      background-color: #139925;
+      background-color: #445269;
       margin: 20px;
       color: #fff;
       text-align: center;
@@ -136,27 +146,52 @@ a {
   }
   
   .fa-times {
-    background-color: #0e3b18 !important;
+    background-color: #000000 !important;
+  }
+
+  .head-info {
+    text-align: center;
+    margin-top: 100px;
+    pointer-events: none;
   }
   
   .website-title {
-      font-size: 34px;
-      text-align: center;
-      color: #e7e7e7;
+    font-size: 40px;
+    text-align: center;
+    color: #e7e7e7;
+    font-family: elianto;
+  }
+
+  .head-info > p {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #c0c0c0;
+    background: #293647c4;
   }
   
   /*---------------- Footer style ---------------*/
   
   .foot-sec {
       width: 100%;
-      background-color: #107526;
+      background-color: #293647;
       box-shadow: 0px -2px 5px #5d5d5d; 
+      background-image: url("paul-gilmore-KT3WlrL_bsg-unsplash.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: auto;
+      min-height: 70vh;
+      align-items: center;
+      justify-items: center;
   }
   
   .info {
-      color: #e2e2e2;
-      text-align: justify;
-      padding: 10px 30px;
+    height: fit-content;
+    background: #2f354e77;
+    color: #e2e2e2;
+    text-align: justify;
+    padding: 30px;
   }
   
   .social {
@@ -208,7 +243,7 @@ a {
 
     /*------------- Responsive stuffs -------------*/
 
-  @media only screen and (min-width: 150px) {
+  @media only screen and (min-width: 0px) {
     #top-nav {display: none;}
   }
 
