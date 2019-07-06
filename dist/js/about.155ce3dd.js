@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{f820:function(e,n,t){"use strict";t.r(n);var o=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("h1",[e._v("goodbye")])},u=[],l=t("2877"),a={},c=Object(l["a"])(a,o,u,!1,null,null,null);n["default"]=c.exports}}]);
-//# sourceMappingURL=about.155ce3dd.js.map
