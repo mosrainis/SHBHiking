@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="container">
-      <sidenav :mobile_nav="mobile_nav" @height_size_ctrl="change_height"/>
+      <sidenav :mobile_nav="mobile_nav"/>
       <div class="main-sec" :class="[mobile_nav ? 'pushed' : 'npushed']">
         <header class="head-sec" :class=" this.$route.path == '/' ? 'head-h-m' : 'head-h-s'">
           <div class="head">
@@ -10,11 +10,33 @@
               <h1 class="website-title">SHB Hiking</h1>
               <p>وب سایت رسمی گروه طبیعت‌گردی SHB</p>
             </div>
-            <topnav @height_size_ctrl="change_height"/>
+            <topnav/>
           </div>
           <div class="buti-line"></div>
+          <div id="achieve-sec" class="blur-sec">
+            <div class="icon">
+              <div>
+                <img src="./assets/icons/Hiking-512.png" alt="hiking-icon"><br>
+                کوهنوردی
+              </div>
+            </div>
+            <div class="icon">
+              <div>
+                <img src="./assets/icons/offroad-512.png" alt="offroud-icon"><br>
+                تور آفرود
+              </div>
+            </div>
+            <div class="icon">
+              <div>
+                <img src="./assets/icons/outdoor-512.png" alt="camping-icon"><br>
+                کمپینگ
+              </div>
+            </div>
+          </div>
         </header>
-        <router-view/>
+        <div class="main-co">
+          <router-view/>
+        </div>
         <foot/>
       </div>
     </div>

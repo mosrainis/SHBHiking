@@ -15,12 +15,7 @@ export default {
     name: 'sidenav',
     props: [
         "mobile_nav"
-    ],
-    data() {
-        return {
-            yo: true
-        }
-    }
+    ]
 }
 </script>
 
