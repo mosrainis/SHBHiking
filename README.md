@@ -1,6 +1,6 @@
 # SHB Hiking
 
-A template for Hiking, Climbing And Adventure Websites
+A template for Hiking, Climbing And Adventure Websites <br>
 ** [DEMO](https://hopeful-mahavira-5b773f.netlify.com) **
 
 ### Installing
